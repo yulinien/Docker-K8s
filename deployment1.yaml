@@ -1,0 +1,171 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: example
+
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mysql-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /data/mysql
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-pvc
+  namespace: example
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-root-pass
+  namespace: example
+type: Opaque
+data:
+  MYSQL_ROOT_PASSWORD: bGVvbnl1MTExOA==
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-deploy
+  namespace: example
+  labels:
+    app: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+        - name: mysql
+          image: mysql:latest
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-root-pass
+                  key: MYSQL_ROOT_PASSWORD
+          volumeMounts:
+            - name: mysql-pv
+              mountPath: /var/lib/mysql
+            - name: mysql-init-script
+              mountPath: /docker-entrypoint-initdb.d/init.sql
+              subPath: init.sql
+      volumes:
+        - name: mysql-pv
+          persistentVolumeClaim:
+            claimName: mysql-pvc
+        - name: mysql-init-script
+          configMap:
+            name: mysql-init-script  # 使用名稱為 mysql-init-script 的 ConfigMap
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  namespace: example
+spec:
+  selector:
+    app: mysql
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306
+  type: ClusterIP
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: leonapp-deploy
+  namespace: example
+  labels:
+    app: leon-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: leon-app
+  template:
+    metadata:
+      name: leonapp-deploy
+      labels:
+        app: leon-app
+    spec:
+      containers:
+        - name: leonapp-container
+          image: yulinien/leon-app:v4
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: spring-datasource-config
+            - secretRef:
+                name: spring-datasource-secret
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-init-script
+  namespace: example
+data:
+  init.sql: "CREATE DATABASE IF NOT EXISTS db1;"
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-datasource-config
+  namespace: example
+data:
+  spring.datasource.url: "jdbc:mysql://mysql:3306/db1"
+  spring.datasource.username: "root"
+  spring.datasource.driver-class-name: "com.mysql.cj.jdbc.Driver"
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: spring-datasource-secret
+  namespace: example
+type: Opaque
+data:
+  spring.datasource.password: "bGVvbnl1MTExOA=="

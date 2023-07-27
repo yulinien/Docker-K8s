@@ -1,0 +1,344 @@
+2023-07-25 09:44:09.492 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 10680 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 09:44:09.497 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 09:44:09.917 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 09:44:09.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 09:44:10.332 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:44:13.743 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 09:44:13.779 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 09:44:13.889 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 09:44:14.003 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:44:15.030 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 09:44:40.532 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 23964 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 09:44:40.534 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 09:44:40.925 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 09:44:40.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 09:44:41.320 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:44:44.699 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 09:44:44.736 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 09:44:44.850 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 09:44:44.967 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:44:45.981 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 09:52:00.818 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 9824 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 09:52:00.820 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 09:52:01.135 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 09:52:01.146 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-07-25 09:52:01.435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 09:52:01.441 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 09:52:01.441 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 09:52:01.512 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 09:52:01.512 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+2023-07-25 09:52:01.608 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:52:04.964 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 09:52:04.993 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 09:52:05.089 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 09:52:05.147 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 09:52:06.163 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-25 09:52:06.170 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 10:07:04.847 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 30544 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:07:04.849 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:07:05.168 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:07:05.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:07:05.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 10:07:05.489 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 10:07:05.489 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 10:07:05.563 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 10:07:05.564 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
+2023-07-25 10:07:05.604 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-25 10:07:05.614 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 10:08:23.947 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 12032 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:08:23.948 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:08:24.257 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:08:24.269 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:08:24.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 10:08:24.568 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 10:08:24.568 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 10:08:24.641 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 10:08:24.642 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 667 ms
+2023-07-25 10:08:24.682 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-25 10:08:24.692 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 10:19:13.868 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 9376 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:19:13.870 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:19:14.170 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:19:14.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:19:14.471 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 10:19:14.477 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 10:19:14.478 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 10:19:14.551 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 10:19:14.552 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 656 ms
+2023-07-25 10:19:14.640 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:19:17.995 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:19:18.025 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:19:18.124 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:19:18.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:19:19.202 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-25 10:19:19.208 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-25 10:23:26.821 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 24744 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:23:26.823 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:23:27.129 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:23:27.141 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:23:27.431 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 10:23:27.437 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 10:23:27.437 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 10:23:27.507 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 10:23:27.507 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+2023-07-25 10:23:27.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:23:27.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 10:23:27.798 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:23:27.833 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:23:27.935 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:23:28.016 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 10:23:28.120 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 10:23:28.127 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:23:28.347 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 10:23:28.353 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:23:28啟動成功，關閉倒數10
+2023-07-25 10:23:28.355 [main] INFO  c.e.dockertest.DockerTestApplication - Started DockerTestApplication in 1.812 seconds (JVM running for 2.203)
+2023-07-25 10:23:29.362 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:23:29啟動成功，關閉倒數9
+2023-07-25 10:23:30.349 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:23:30.350 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 10:23:30.355 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 10:24:05.619 [main] INFO  c.e.dockertest.DockerTestApplication - Starting DockerTestApplication using Java 17.0.7 on FA00080 with PID 3740 (C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test\target\classes started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:24:05.621 [main] INFO  c.e.dockertest.DockerTestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:24:05.950 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:24:05.960 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:24:06.263 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-25 10:24:06.269 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-25 10:24:06.269 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-25 10:24:06.345 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-25 10:24:06.345 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 695 ms
+2023-07-25 10:24:06.435 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:24:06.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 10:24:06.628 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:24:06.663 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:24:06.768 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:24:06.850 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 10:24:06.956 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 10:24:06.964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:24:07.183 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 10:24:07.190 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:07啟動成功，關閉倒數100
+2023-07-25 10:24:07.191 [main] INFO  c.e.dockertest.DockerTestApplication - Started DockerTestApplication in 1.872 seconds (JVM running for 2.441)
+2023-07-25 10:24:08.192 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:08啟動成功，關閉倒數99
+2023-07-25 10:24:09.198 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:09啟動成功，關閉倒數98
+2023-07-25 10:24:10.202 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:10啟動成功，關閉倒數97
+2023-07-25 10:24:11.209 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:11啟動成功，關閉倒數96
+2023-07-25 10:24:12.213 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:12啟動成功，關閉倒數95
+2023-07-25 10:24:13.221 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:13啟動成功，關閉倒數94
+2023-07-25 10:24:14.232 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:14啟動成功，關閉倒數93
+2023-07-25 10:24:14.330 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:24:14.331 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 10:24:14.337 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 10:24:44.111 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 6268 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:24:44.112 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:24:44.504 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:24:44.515 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:24:44.936 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:24:45.209 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 10:24:45.259 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:24:45.295 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:24:45.440 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:24:45.553 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 10:24:45.679 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 10:24:45.689 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:24:46.514 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:24:46啟動成功，關閉倒數100
+2023-07-25 10:24:46.515 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.68 seconds (JVM running for 3.281)
+2023-07-25 10:24:46.785 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:24:46.786 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 10:24:46.793 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 10:26:17.432 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 30464 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:26:17.434 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:26:17.825 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:26:17.835 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:26:18.236 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:26:18.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 10:26:18.554 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:26:18.589 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:26:18.736 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:26:18.844 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 10:26:18.977 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 10:26:18.988 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:26:19.786 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:26:19啟動成功，關閉倒數100
+2023-07-25 10:26:19.789 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.623 seconds (JVM running for 3.206)
+2023-07-25 10:26:20.088 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:26:20.090 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 10:26:20.097 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 10:27:06.696 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 24944 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 10:27:06.697 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 10:27:07.101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 10:27:07.112 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 10:27:07.507 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 10:27:07.777 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 10:27:07.827 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 10:27:07.867 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 10:27:08.011 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 10:27:08.121 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 10:27:08.256 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 10:27:08.265 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:27:09.119 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:10:27:09啟動成功，關閉倒數100
+2023-07-25 10:27:09.121 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.696 seconds (JVM running for 3.284)
+2023-07-25 10:27:09.387 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 10:27:09.389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 10:27:09.395 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 11:18:53.619 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 22324 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 11:18:53.620 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 11:18:54.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 11:18:54.027 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 11:18:54.409 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 11:18:54.683 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 11:18:54.730 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 11:18:54.764 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 11:18:54.914 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 11:18:55.025 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 11:18:55.157 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 11:18:55.166 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:18:55.973 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:11:18:55啟動成功，關閉倒數100
+2023-07-25 11:18:55.975 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.623 seconds (JVM running for 3.195)
+2023-07-25 11:18:56.255 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:18:56.256 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 11:18:56.263 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 11:29:21.616 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 15240 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 11:29:21.618 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 11:29:22.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 11:29:22.024 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 11:29:22.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 11:29:22.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 11:29:22.753 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 11:29:22.787 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 11:29:22.934 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 11:29:23.040 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 11:29:23.177 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 11:29:23.186 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:29:23.991 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:11:29:23啟動成功，關閉倒數100
+2023-07-25 11:29:23.994 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.642 seconds (JVM running for 3.233)
+2023-07-25 11:29:24.264 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:29:24.265 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 11:29:24.272 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 11:52:42.064 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 19228 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 11:52:42.065 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 11:52:42.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 11:52:42.475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 11:52:42.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 11:52:43.162 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 11:52:43.212 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 11:52:43.248 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 11:52:43.390 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 11:52:43.503 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 11:52:43.636 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 11:52:43.648 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:52:44.450 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:11:52:44啟動成功，關閉倒數100
+2023-07-25 11:52:44.451 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.659 seconds (JVM running for 3.246)
+2023-07-25 11:52:44.733 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:52:44.734 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 11:52:44.741 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 11:55:47.442 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 4280 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 11:55:47.444 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 11:55:47.859 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 11:55:47.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 11:55:48.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 11:55:48.527 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 11:55:48.572 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 11:55:48.607 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 11:55:48.766 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 11:55:48.875 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 11:55:49.008 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 11:55:49.019 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:55:49.796 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:11:55:49啟動成功，關閉倒數100
+2023-07-25 11:55:49.797 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.637 seconds (JVM running for 3.24)
+2023-07-25 11:55:50.094 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 11:55:50.096 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 11:55:50.103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 15:59:16.228 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 15380 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 15:59:16.229 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 15:59:16.606 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 15:59:16.617 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 15:59:16.992 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 15:59:17.263 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 15:59:17.310 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 15:59:17.345 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 15:59:17.498 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 15:59:17.604 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 15:59:17.738 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 15:59:17.748 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 15:59:18.611 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:15:59:18啟動成功，關閉倒數100
+2023-07-25 15:59:18.612 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.647 seconds (JVM running for 3.245)
+2023-07-25 15:59:18.870 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 15:59:18.871 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 15:59:18.878 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 16:03:47.665 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 12900 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 16:03:47.666 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 16:03:48.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 16:03:48.043 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 16:03:48.417 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 16:03:48.683 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 16:03:48.732 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 16:03:48.770 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 16:03:48.913 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 16:03:49.013 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 16:03:49.144 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 16:03:49.153 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:03:49.961 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:16:03:49啟動成功，關閉倒數100
+2023-07-25 16:03:49.963 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.559 seconds (JVM running for 3.135)
+2023-07-25 16:03:50.240 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:03:50.241 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 16:03:50.248 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 16:13:29.458 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 30072 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 16:13:29.460 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 16:13:29.836 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 16:13:29.847 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 16:13:30.248 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 16:13:30.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 16:13:30.560 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 16:13:30.595 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 16:13:30.745 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 16:13:30.852 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 16:13:30.982 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 16:13:30.993 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:13:31.812 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:16:13:31啟動成功，關閉倒數100
+2023-07-25 16:13:31.815 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.628 seconds (JVM running for 3.212)
+2023-07-25 16:13:32.102 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:13:32.103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 16:13:32.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 16:47:01.666 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 8908 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 16:47:01.667 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 16:47:02.042 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 16:47:02.053 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 16:47:02.441 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 16:47:02.713 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 16:47:02.760 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 16:47:02.797 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 16:47:02.945 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 16:47:03.045 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 16:47:03.179 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 16:47:03.190 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:47:04.015 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:16:47:04啟動成功，關閉倒數100
+2023-07-25 16:47:04.017 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.607 seconds (JVM running for 3.192)
+2023-07-25 16:47:04.335 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 16:47:04.336 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 16:47:04.343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-07-25 17:11:14.850 [main] INFO  c.e.d.DockerTestApplicationTests - Starting DockerTestApplicationTests using Java 17.0.7 on FA00080 with PID 15976 (started by leon.yu in C:\Users\leon.yu\IdeaProjects\multiple-datasource-spring-boot-example-main\docker-test)
+2023-07-25 17:11:14.851 [main] INFO  c.e.d.DockerTestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-07-25 17:11:15.243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 17:11:15.252 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-25 17:11:15.627 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-25 17:11:15.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-25 17:11:15.942 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 17:11:15.979 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-25 17:11:16.122 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-25 17:11:16.227 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 17:11:16.362 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 17:11:16.372 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 17:11:17.207 [scheduling-1] INFO  com.example.dockertest.CustomRun - 時間:17:11:17啟動成功，關閉倒數100
+2023-07-25 17:11:17.209 [main] INFO  c.e.d.DockerTestApplicationTests - Started DockerTestApplicationTests in 2.619 seconds (JVM running for 3.2)
+2023-07-25 17:11:17.470 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 17:11:17.472 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-07-25 17:11:17.479 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
